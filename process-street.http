@@ -1,0 +1,15 @@
+### get-test-auth
+GET https://public-api.process.st/api/v1.1/testAuth
+X-API-Key: {{api-key}}
+
+### get-data-sets
+GET https://public-api.process.st/api/v1.1/data-sets
+X-API-Key: {{api-key}}
+
+### get-data-set-records
+GET https://public-api.process.st/api/v1.1/data-sets/{{data-set-id}}/records
+X-API-Key: {{api-key}}
+
+### get-data-set-record
+GET https://public-api.process.st/api/v1.1/data-sets/{{data-set-id}}/records/{{data-set-record-id}}
+X-API-Key: {{api-key}}
