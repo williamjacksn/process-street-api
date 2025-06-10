@@ -19,3 +19,9 @@ dependencies = [
 [build-system]
 requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+test = [
+    "coverage>=7.8.2",
+    "dotenv>=0.9.9",
+]
