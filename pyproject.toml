@@ -1,0 +1,21 @@
+[project]
+name = "process-street"
+version = "2025.0"
+description = "Work with the Process Street API"
+readme = "README.md"
+authors = [
+    { name = "William Jackson", email = "william@subtlecoolness.com" }
+]
+requires-python = ">=3.13"
+license = "MIT"
+dependencies = [
+    "httpx>=0.28.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/williamjacksn/process-street-api"
+"Issues" = "https://github.com/williamjacksn/process-street-api/issues"
+
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
