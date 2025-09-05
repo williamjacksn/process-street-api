@@ -1,7 +1,9 @@
-import dotenv
 import os
-import process_street
 import unittest
+
+import dotenv
+
+import process_street
 
 dotenv.load_dotenv("../.local/.env")
 PRST_API_KEY = os.getenv("PRST_API_KEY")
