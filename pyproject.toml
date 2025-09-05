@@ -17,11 +17,18 @@ dependencies = [
 "Issues" = "https://github.com/williamjacksn/process-street-api/issues"
 
 [build-system]
-requires = ["setuptools>=77.0.3"]
-build-backend = "setuptools.build_meta"
+requires = ["uv-build>=0.8.15,<0.9.0"]
+build-backend = "uv_build"
 
 [dependency-groups]
+dev = [
+    "ruff>=0.12.12",
+    "uv-build>=0.8.15",
+]
 test = [
     "coverage>=7.8.2",
     "dotenv>=0.9.9",
 ]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
