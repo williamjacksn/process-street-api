@@ -13,3 +13,15 @@ X-API-Key: {{api-key}}
 ### get-data-set-record
 GET https://public-api.process.st/api/v1.1/data-sets/{{data-set-id}}/records/{{data-set-record-id}}
 X-API-Key: {{api-key}}
+
+### get-users
+GET https://public-api.process.st/api/v1.1/users
+X-API-Key: {{api-key}}
+
+### get-workflows
+GET https://public-api.process.st/api/v1.1/workflows
+X-API-Key: {{api-key}}
+
+### get-workflow-tasks
+GET https://public-api.process.st/api/v1.1/workflows/{{workflow-id}}/tasks
+X-API-Key: {{api-key}}
